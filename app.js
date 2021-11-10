@@ -56,6 +56,10 @@ app.post("/", function(req, res){
   request.end();
 });
 
+app.post("/failure", function(req, res){
+  res.sendFile(__dirname+"/signup.html");
+})
+
 //297ee47e0dd698f2a48f6d7edcdadddb-us6
 
 //1650e4080d
